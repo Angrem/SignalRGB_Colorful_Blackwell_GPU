@@ -15,6 +15,7 @@ SMBus plugin adding SignalRGB support for Colorful iGame RTX 50-series (Blackwel
 ## Supported Devices
 
 | GPU Model | Vendor ID | Device ID | SubDevice ID | SubVendor ID |
+| :--- | :--- | :--- | :--- | :--- |
 | Colorful 5060Ti iGame Ultra White DUO OC 16G | `0x10DE` | `0x2D04` | `0x1500` | `0x7377` |
 | Colorful 5060Ti iGame Ultra White OC 16G | `0x10DE` | `0x2D04` | `0x1501` | `0x7377` |
 | Colorful 5070 iGame Ultra White OC 12G | `0x10DE` | `0x2F04` | `0x1500` | `0x7377` |
