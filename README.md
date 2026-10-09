@@ -11,6 +11,7 @@ SMBus plugin adding SignalRGB support for Colorful iGame RTX 50-series (Blackwel
 
 ## Known Limitations
 * **Single Zone Only (1 LED):** The hardware SMBus microcontroller on these GPUs accepts a fixed 11-byte command payload at register `0x0B`. Extending packet length to address multiple LED segments causes buffer clipping errors. The entire lighting strip is controlled as a single unified color zone.
+* **Colorful 5080 Advanced OC Design:** The Advanced OC features a different physical RGB layout (a ring around the center fan rather than a side strip). It uses the same SMBus register structure but should work fine, but it will reflect as a single unified color ring.
 
 ## Supported Devices
 
